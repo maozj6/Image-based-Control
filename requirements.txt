@@ -1,0 +1,4 @@
+gym
+gym-donkeycar
+torch
+numpy
