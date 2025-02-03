@@ -46,7 +46,7 @@ if __name__ == '__main__':
     ctelist = []
     device='cuda'
     model = CNNController().to(device)
-    model.load_state_dict(torch.load("model_epoch_10.pth"))
+    model.load_state_dict(torch.load("savedModel.pth"))
     for i in range(500):
 
         # env.pause_env()  # unfreeze
